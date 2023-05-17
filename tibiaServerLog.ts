@@ -82,7 +82,7 @@ export function generateJSON(): Promise<IOutputData> {
       });
 }
 
-generateJSON().then((result) => console.log(result));
+generateJSON().then((result) => {});
 
 `
 {
